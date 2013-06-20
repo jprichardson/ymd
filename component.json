@@ -1,0 +1,9 @@
+{
+  "name": "ymd",
+  "version": "0.0.1",
+  "description": "JavaScript component to return the year, month, and day string. i.e. returns `YYYY-MM-dd` from Date object.",
+  "keywords": ["date", "year", "month", "day"],
+  "scripts": [
+    "lib/ymd.js"
+  ]
+}
