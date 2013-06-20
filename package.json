@@ -1,0 +1,24 @@
+{
+  "name" : "ymd", 
+  "version" : "0.0.1",
+  "description" :"JavaScript component to return the year, month, and day string.",
+  "homepage" : [
+    ""
+  ],
+  "repository" : {
+    "type" : "git", 
+    "url" : "https://github.com/jprichardson/ymd"
+  },
+  "keywords" : ["date", "year", "month", "day"],
+  "author" : "JP Richardson <jprichardson@gmail.com>",
+  "licenses" : [ {
+    "type" : "MIT",
+    "url" : ""
+  }],
+  "dependencies" : {},
+  "devDependencies":{},
+  "main" : "./lib/ymd.js",
+  "scripts": {
+    "test": "mocha test"
+  }
+}
