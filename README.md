@@ -30,15 +30,29 @@ Component
     component install jprichardson/ymd
 
 
+Methods
+-------
+
+### ymd
+
+- returns using local timezone
+
+
+### ymd.utc
+
+- returns use UTC timezone
+
 
 Example
 ------
 
 ```js
+var ymd = require('ymd')
+
 ymd.utc(new Date('2013-03-05')) //2013-03-05
 
 // input to Date() is still being parsed as UTC, may be different for your timezone
-ymd(ymd(new Date('2013-03-05 4:43 PM')) //2013-03-05
+ymd(new Date('2013-03-05 4:43 PM')) //2013-03-05
 ```
 
 
