@@ -1,7 +1,7 @@
 ymd
 ===
 
-JavaScript component to return the year, month, and day string.
+JavaScript component to return the year, month, and day string. i.e. returns `YYYY-MM-dd` from Date object.
 
 
 Why?
