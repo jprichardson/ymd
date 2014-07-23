@@ -4,6 +4,8 @@
   "description": "JavaScript component to return the year, month, and day string. i.e. returns `YYYY-MM-dd` from Date object.",
   "keywords": ["date", "year", "month", "day"],
   "scripts": [
+    "index.js",
     "lib/ymd.js"
-  ]
+  ],
+  "main": "index.js"
 }
