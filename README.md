@@ -40,7 +40,7 @@ Methods
 
 ### ymd.utc
 
-- returns use UTC timezone
+- returns using UTC timezone
 
 
 Example
