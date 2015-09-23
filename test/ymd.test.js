@@ -3,7 +3,10 @@ var ymd = require('../')
 
 test('ymd().toString() should return date string', function (t) {
   t.is(ymd(new Date('2013-03-05 4:43 PM')).toString(), '2013-03-05')
+  t.is(ymd(new Date('2013-03-05 4:43 PM')).ymd, '2013-03-05')
+
   t.is(ymd.utc(new Date('2013-03-05')).toString(), '2013-03-05')
+  t.is(ymd.utc(new Date('2013-03-05')).ymd, '2013-03-05')
   t.end()
 })
 
