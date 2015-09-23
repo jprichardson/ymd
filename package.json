@@ -16,12 +16,7 @@
     "day"
   ],
   "author": "JP Richardson <jprichardson@gmail.com>",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": ""
-    }
-  ],
+  "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "ava": "^0.2.0"
