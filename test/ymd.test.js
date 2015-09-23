@@ -7,7 +7,8 @@ test('ymd() should return date string', function (t) {
   t.end()
 })
 
-  it('should return the date string', function() {
-    assert.strictEqual(ymd(new Date('2013-03-05 4:43 PM')), '2013-03-05')
-  })
+test('ymd() does not require a date, defaults to current date', function (t) {
+  t.is(typeof ymd(), 'string', 'defaults to current date')
+  t.is(typeof ymd.utc(), 'string', 'defaults to current date')
+  t.end()
 })
