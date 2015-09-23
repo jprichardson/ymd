@@ -24,12 +24,6 @@ Node.js/Browserify
     npm install --save ymd
 
 
-Component
----------
-
-    component install jprichardson/ymd
-
-
 Methods
 -------
 
