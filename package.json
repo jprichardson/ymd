@@ -23,9 +23,11 @@
     }
   ],
   "dependencies": {},
-  "devDependencies": {},
-  "main": "./lib/ymd.js",
+  "devDependencies": {
+    "ava": "^0.2.0"
+  },
+  "main": "./index.js",
   "scripts": {
-    "test": "mocha test"
+    "test": "ava"
   }
 }
