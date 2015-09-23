@@ -1,6 +1,6 @@
 {
   "name": "ymd",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "JavaScript component to return the year, month, and day string. i.e. returns `YYYY-MM-dd` from Date object.",
   "repository": {
     "type": "git",
